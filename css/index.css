@@ -1,0 +1,446 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+
+h1 {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8rem;
+    margin-top: -0rem;
+    margin-bottom: 1rem;
+}
+
+
+h2 {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: white;
+    font-size: 2.3rem;
+}
+
+
+h3 {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+p {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+a {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+
+/* Top Section --------------------------------------------------------------------------------------- */
+.top-section {
+    display: flex;
+}
+
+
+.dropdown {
+    width: 5.5rem;
+    z-index: 1;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+
+    opacity: 80%;
+}
+
+.top-logo {
+    width: 15rem;
+    z-index: 1;
+    position: absolute;
+    top: -1.5rem;
+    left: 6rem;
+    
+    opacity: 70%;
+}
+
+.taro-gif {
+    position: relative;
+    width:100%;
+    object-fit: cover;
+}
+
+
+
+
+
+/* Update & Nav Section --------------------------------------------------------------------------------------- */
+.updates-and-nav-section {
+    display: block;
+    justify-content: space-between;
+    background-color: rgb(30, 31, 36);
+    padding: 1rem;
+}
+
+.only-updates-and-nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.updates-section {
+    max-width: 29rem;
+}
+
+
+.latest-update {
+    color: #18ecd7;
+}
+
+
+.blog-post-title {
+    color: #5fbaff;
+    font-size: 1.5rem;
+}
+
+.blog-post-title:hover {
+    color:#58d2fe;
+}
+
+
+.blog-snippet {
+    color: #f9fdff;
+    font-size: 1.0rem;
+}
+
+
+.read-more-button {
+    margin-left: 21rem;
+    color: #18ecd7;
+    font-size: 1.2rem;
+}
+
+
+.read-more-button:hover {
+    color: #b7fff8;
+}
+
+
+.mini-logo {
+    width: 10rem;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 3.7rem
+}
+
+
+.nav-side {
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+}
+
+.nav-list-item {
+    display: flex;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.nav-list-item:hover {
+    color: #18ecd7;
+    font-weight: bold;
+}
+
+
+
+
+.top-nav-options {
+    display: flex;
+    margin-top: 3.5rem;
+    margin-bottom: -1rem;
+}
+
+.top-nav-options:hover {
+    color: #28c6ff;
+    
+}
+
+
+
+.bottom-nav-options {
+    display: flex;
+    margin-left: 1.5rem;
+}
+
+
+.bottom-nav-options:hover {
+    color: #28c6ff;
+}
+
+
+
+/* About Us Section --------------------------------------------------------------------------------------- */
+.about-us-section {
+    display: flex;
+    justify-content: space-between;
+    max-height: 50rem;
+}
+
+
+.about-us-text-half {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 1rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+    background-color: #091b41;
+}
+
+
+.about-us-title {
+    display: flex;
+    flex-direction: column;
+    color: #28c6ff;
+}
+
+
+
+
+.about-us-images {
+    width: 60%;
+    object-fit: cover;
+
+}
+
+
+.taro-running {
+    position: absolute;
+    display: flex;
+    object-fit: cover;
+    margin-top: 3rem;
+    width: 70rem;
+    z-index: 2;
+    
+}
+
+.taro-kog-cover {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 110%;
+    z-index: 0;
+
+}
+
+
+.learn-more-about-us {
+    color: #28c6ff;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.learn-more-about-us:hover {
+    font-weight: bold;
+}
+
+
+
+/* Pseudoworker Section --------------------------------------------------------------------------------------- */
+.pseudoworker-section {
+    display: flex;
+    max-height: 50rem;
+    min-height: 50rem;
+}
+
+
+.pseudoworker-text-half {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding: 1rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+    background-color: #4d092e;
+    float: right;
+    z-index: 1;
+}
+
+.learn-more-about-pseudoworker {
+    color: #f84ea8;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+.learn-more-about-pseudoworker:hover {
+    font-weight: bolder;
+}
+
+
+.pseudoworker-images {
+    width: 60%;
+    /* display: flex; */
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+
+.pseudoworker-logo {
+    object-fit: cover;
+    width: 20rem;
+}
+
+
+.henry-sprite {
+    position: absolute;
+    display: flex;
+    object-fit: cover;
+    width: 20rem;
+    z-index: 1;
+    align-self: flex-end;
+    margin-left: 20%;
+    
+}
+
+.pseudoworker-poster {
+    position: relative;
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 110%;
+
+}
+
+
+
+
+/* Bottom Section --------------------------------------------------------------------------------------- */
+.bottom-section {
+    background-image: linear-gradient(to bottom, #0c0e17, #273E52);
+    /* background-color: #0c0e17; */
+    display: flex;
+    justify-content: space-between;
+    max-height: 17rem;
+    z-index: 2;
+}
+
+.bottom-left-side {
+    display: flex;
+    overflow: hidden;
+
+}
+
+
+.bottom-middle-side {
+    display: flex;
+    align-items: end;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.bottom-right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.taro-footer-img {
+    display: flex;
+    position: relative;
+    width: 60rem;
+    object-fit: cover;
+    
+}
+
+
+.footer-logo {
+    display: flex;
+    position: relative;
+    width: 10rem;
+    object-fit: cover;
+    margin-top: -1.2rem;
+    
+}
+
+
+
+.footer-nav {
+    display: flex;
+    margin-top: -2rem;
+}
+
+
+.bottom-nav-item {
+    display: flex;
+    margin-bottom: 0.7rem;
+}
+
+
+.bottom-nav-item:hover {
+    color: #28c6ff;
+}
+
+
+
+.x-logo {
+    display: flex;
+    width: 4rem;
+    margin-right: 2rem;
+}
+
+
+.insta-logo {
+    display: flex;
+    width: 4rem;
+    margin-right: 2rem;
+}
+
+
+
+.email-icon {
+    display: flex;
+    width: 4rem;
+}
+
+
