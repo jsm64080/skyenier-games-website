@@ -1,0 +1,245 @@
+body {
+    background-color: rgb(20, 20, 41);
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #28c6ff;
+}
+
+h1 {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8rem;
+    margin-top: -0rem;
+    margin-bottom: 1rem;
+}
+
+
+h2 {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: #28c6ff;
+    font-size: 2.3rem;
+}
+
+
+h3 {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: aquamarine;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+p {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+a {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.7rem;
+    background-color:rgb(20, 20, 41);
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+
+
+/* Contact Section --------------------------------------------------------------------------------------- */
+
+.contact-us-display {
+    /* border: lightcoral;
+    border-style: solid; */
+    display: flex;
+}
+
+.contact-text-input {
+    background-color:rgb(20, 20, 41);
+    color: aliceblue;
+    width: 30rem;
+}
+
+.contact-message-input {
+    width: 30rem;
+    background-color: rgb(20, 20, 41);
+    color: aliceblue;
+    text-wrap: inherit;
+    
+}
+
+
+
+.contact-table {
+    display: flex;
+    position: relative;
+    border-width: 5px;
+    border: white;
+    border-style: solid;
+    background-color:#273E52;
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
+
+
+
+.submit-button {
+    display: flex;
+    position: relative;
+    height: 2rem;
+    width: 5rem;
+    margin-left: 28rem;
+    background-color: #065180;
+}
+
+.submit-button:hover {
+    background-color: #0d7fc6;
+}
+
+
+
+
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.taro-running {
+    display: flex;
+    z-index: -1;
+    position: absolute;
+    width: 70rem;
+    margin-top: 3rem;
+    margin-left: 35rem;
+}
+
+
+
+
+
+
+/* Bottom Section --------------------------------------------------------------------------------------- */
+.bottom-section {
+    background-image: linear-gradient(to bottom, #0c0e17, #273E52);
+    /* background-color: #0c0e17; */
+    display: flex;
+    justify-content: space-between;
+    max-height: 17rem;
+}
+
+.bottom-left-side {
+    display: flex;
+    overflow: hidden;
+
+}
+
+
+.bottom-middle-side {
+    display: flex;
+    align-items: end;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.bottom-right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.taro-footer-img {
+    display: flex;
+    position: relative;
+    width: 60rem;
+    object-fit: cover;
+    
+}
+
+
+.footer-logo {
+    display: flex;
+    position: relative;
+    width: 10rem;
+    object-fit: cover;
+    margin-top: -1.2rem;
+    
+}
+
+
+
+.footer-nav {
+    display: flex;
+    margin-top: -2rem;
+}
+
+
+.bottom-nav-item {
+    display: flex;
+    margin-bottom: 0.7rem;
+}
+
+
+.bottom-nav-item:hover {
+    color: #28c6ff;
+}
+
+
+
+.x-logo {
+    display: flex;
+    width: 4rem;
+    margin-right: 2rem;
+}
+
+
+.insta-logo {
+    display: flex;
+    width: 4rem;
+    margin-right: 2rem;
+}
+
+
+
+.email-icon {
+    display: flex;
+    width: 4rem;
+}
+
